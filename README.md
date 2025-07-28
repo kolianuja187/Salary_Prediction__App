@@ -21,9 +21,9 @@ The project includes the following key components:
 | **File Name**          | **Description**                                                                                                                    |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | `salary_data.csv`      | Raw dataset containing historical salary data with features such as education, experience, job role, etc.                          |
-| `data_cleaning.py`     | Python script for cleaning and preprocessing raw data (e.g., handling nulls, encoding categorical features, normalization).        |
+| `data_cleaning.ipynb`     | Python script for cleaning and preprocessing raw data (e.g., handling nulls, encoding categorical features, normalization).        |
 | `new_cleaned_data.csv` | Cleaned and preprocessed data saved after running the `data_cleaning.py` script.                                                   |
-| `model_selection.py`   | Script used for comparing multiple models (e.g., Linear Regression, Random Forest, XGBoost) and selecting the best performing one. |
+| `model_selection.ipynb`   | Script used for comparing multiple models (e.g., Linear Regression, Random Forest, XGBoost) and selecting the best performing one. |
 | `salary_model.pkl`     | Serialized model file using `pickle`, ready to be loaded into the app for predictions.                                             |
 | `app.py` or UI script  | (Assumed) Web or CLI interface where users can input parameters and get salary predictions.                                        |
 
